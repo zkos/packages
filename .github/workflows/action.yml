@@ -45,4 +45,4 @@ jobs:
             cd ${PKGS_ROOT}/packages && python ci.py
 
   pkgs-test:
-    uses: RT-Thread/pkgs-test/.github/workflows/pkgs-action.yml@main
+    uses: zkos/pkgs-test/.github/workflows/pkgs-action.yml@main
